@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Site</title>
-    <link rel="stylesheet" href="/CSS/main.css" />
-    <link rel="stylesheet" href="/CSS/global.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/global.css" />
   </head>
   <body>
     <header class="header">
-      <h3 class="header__title">Travel Site</h3>
+      <a class="header__link" href="/index.html">
+        <h3 class="header__title">Travel Site</h3></a
+      >
       <nav class="navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link" href="">Home</a>
+            <a class="navigation__link" href="/index.html">Home</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="">Hawaii</a>
@@ -46,7 +48,7 @@
         <div class="landing__imagecontainer">
           <img
             class="landing__image"
-            src="/2.0 - Assets/Images/hero.png"
+            src="/assets/Images/hero.png"
             alt="Plane flying around world"
           />
         </div>
@@ -55,17 +57,21 @@
       <section class="destinations">
         <h2 class="destinations__title">Recommendations</h2>
         <div class="destinations__options">
-          <div class="destinations__hawaii">
-            <h3>Hawaii</h3>
-          </div>
-
-          <div class="destinations__iceland">
-            <h3>Iceland</h3>
-          </div>
-
-          <div class="destinations__greece">
-            <h3>Greece</h3>
-          </div>
+          <a class="destinations__hawaii__link" href="/pages/hawaii.html">
+            <div class="destinations__hawaii">
+              <h3 class="destinations__hawaii__text">Hawaii</h3>
+            </div></a
+          >
+          <a class="destinations__iceland__link" href="/pages/greece.html">
+            <div class="destinations__iceland">
+              <h3 class="destinations__iceland__text">Iceland</h3>
+            </div></a
+          >
+          <a class="destinations__greece__link" href="/pages/greece.html">
+            <div class="destinations__greece">
+              <h3 class="destinations__greece__text">Greece</h3>
+            </div></a
+          >
         </div>
       </section>
     </main>
@@ -74,35 +80,40 @@
       <footer class="footer">
         <div class="footer__address">
           <h2 class="footer__cardheader">Contact</h2>
-          <p class="footer__text">Email</p>
+          <p class="footer__text__title">Email</p>
           <p class="footer__text">info@travelsite.com</p>
         </div>
 
         <div class="footer__hours">
           <h2 class="footer__cardheader">Hours</h2>
-          <p class="footer__text">Monday - Friday: 9:00am-5:00pm</p>
-          <p class="footer__text">Saturday10:00am-4:00pm</p>
-          <p class="footer__text">Sunday:Closed</p>
+          <div class="footer__text__days">
+            <p class="footer__text__hours__mon">Monday - Friday</p>
+            <p class="footer__text__hours__sat">Saturday</p>
+            <p class="footer__text__hours__sun">Sunday</p>
+          </div>
+          </div class="footer__text__times">
+        
+
         </div>
 
         <div class="footer__socials">
-          <h2 class="footer_cardheader__socials">Social</h2>
+          <h2 class="footer__cardheader">Social</h2>
           <a href="https://www.Instagram.com">
             <img
               class="footer__icons"
-              src="/2.0 - Assets/Icons/icon-instagram.png"
+              src="/assets/Icons/icon-instagram.png"
               alt="Instagram"
           /></a>
           <a href="https://www.facebook.com">
             <img
-              class="footer__icons"
-              src="/2.0 - Assets/Icons/icon-facebook.png"
+              class="footer__icons__facebook"
+              src="/assets/Icons/icon-facebook.png"
               alt="Facebook"
           /></a>
           <a href="https://www.twitter.com">
             <img
-              class="footer__icons"
-              src="/2.0 - Assets/Icons/icon-twitter.png"
+              class="footer__icons__twitter"
+              src="/assets/Icons/icon-twitter.png"
               alt="Twitter"
           /></a>
         </div>
