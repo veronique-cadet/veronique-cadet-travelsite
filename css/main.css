@@ -29,13 +29,12 @@
 
 .navigation__link {
   text-decoration: none;
-  color: black;
+  color: #335576;
 }
 
 .navigation__link:hover {
   /* text-decoration: underline; */
-  color: pink;
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid #db7a4e;
 }
 
 /*hero*/
@@ -114,9 +113,10 @@
   width: 14.2rem;
   height: 23rem;
   margin: 1.5rem;
-  border: 0.0625em solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  background-repeat: no-repeat;
 }
 
 .destinations__hawaii__text {
@@ -139,8 +139,9 @@
   width: 14.2rem;
   height: 23rem;
   margin: 1.5rem;
-  border: 0.0625em solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
 }
 
 .destinations__iceland__text {
@@ -163,8 +164,9 @@
   width: 14.2rem;
   height: 23rem;
   margin: 1.5em;
-  border: 0.0625em solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
 }
 
 .destinations__greece__text {
@@ -183,8 +185,13 @@
 
 .footer {
   display: flex;
-  padding: 4rem;
   background-color: #fefaf5;
+  padding: 3rem;
+  justify-content: center;
+}
+
+.footer__text {
+  color: #335576;
 }
 
 .footer__cardheader {
@@ -192,59 +199,108 @@
   display: flex;
   margin-bottom: 2rem;
 }
+
+.footer__cardheader--social {
+  color: #335576;
+  display: flex;
+  margin-bottom: 2rem;
+  height: 20%;
+}
+
 .footer__text__title {
   color: #db7a4e;
   margin-bottom: 1rem;
-}
-
-.footer__socials {
-  margin-left: 5rem;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
 .footer__hours {
-  margin-left: 5rem;
+  margin-left: 3rem;
 }
 
 .footer__address {
-  margin-left: 13rem;
+  margin-left: 7.5rem;
 }
 
 .footer__text__days {
   display: flex;
 }
 
-.footer__text__hours__sat {
-  margin-left: 2rem;
+.footer__monday-friday {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__monday-friday__text {
   color: #db7a4e;
+  margin-bottom: 1rem;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
-.footer__text__hours__mon {
-  inline-size: 10rem;
-  color: #db7a4e;
-}
-
-.footer__text__hours__sun {
-  margin-left: 6rem;
-  color: #db7a4e;
-}
-
-.footer__icons {
-  width: 10%;
-  margin-top: 2rem;
-}
-
-.footer__icons__facebook {
-  width: 5%;
-  margin-left: 2rem;
-  margin-top: 2rem;
-}
-
-.footer__icons__twitter {
-  margin-left: 2rem;
-  width: 10%;
-  margin-top: 2rem;
-}
-
-.footer__text {
+.footer__monday-friday__time {
   color: #335576;
+  font-weight: 300;
+}
+
+.footer__saturday {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+.footer__saturday__text {
+  color: #db7a4e;
+  margin-bottom: 1rem;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.footer__saturday__time {
+  color: #335576;
+  font-weight: 300;
+}
+
+.footer__sunday {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+.footer__sunday__text {
+  color: #db7a4e;
+  margin-bottom: 1rem;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.footer__sunday__time {
+  color: #335576;
+  font-weight: 300;
+}
+
+.footer__socials {
+  margin-left: 3rem;
+}
+
+.footer__links {
+  text-decoration: none;
+}
+.footer__instagram__icon {
+  width: 10%;
+  margin-top: 27px;
+}
+.footer__facebook__icon {
+  width: 5%;
+  margin-top: 27px;
+  margin-left: 2rem;
+}
+
+.footer__twiiter__icon {
+  width: 10%;
+  margin-top: 27px;
+  margin-left: 2rem;
 }
