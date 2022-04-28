@@ -1,0 +1,113 @@
+.hero__hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.hero__title {
+  display: flex;
+  margin-left: 7rem;
+  color: #ffffff;
+  font-size: 60px;
+}
+
+.hero__days {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.hero__day {
+  border-radius: 0.313rem;
+  width: 15rem;
+  height: 21rem;
+  margin: 1.5rem;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.hero__day__text {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.hero__day__list {
+  color: black;
+  border: 1px solid #fefaf5;
+  background-color: #fefaf5;
+  margin: 1.1rem 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.hero__day__list--day {
+  border-bottom: 2px solid black;
+  display: 3;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.destinations__hawaii__text {
+  color: #ffffff;
+  display: flex;
+  justify-content: right;
+  margin-top: 20.5rem;
+  margin-right: 1rem;
+}
+
+.destinations__hawaii__link {
+  text-decoration: none;
+}
+
+.destinations__iceland {
+  border-radius: 0.313rem;
+  width: 15rem;
+  height: 21rem;
+  margin: 1.5rem;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.destinations__iceland__text {
+  color: #ffffff;
+  display: flex;
+  justify-content: right;
+  margin-top: 20.5rem;
+  margin-right: 1rem;
+}
+
+.destinations__iceland__link {
+  text-decoration: none;
+}
+
+.destinations__greece {
+  border-radius: 0.313rem;
+  width: 15rem;
+  height: 21rem;
+  margin: 1.5rem;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.destinations__greece__text {
+  color: #ffffff;
+  display: flex;
+  justify-content: right;
+  margin-top: 20.5rem;
+  margin-right: 1rem;
+}
+
+.destinations__greece__link {
+  text-decoration: none;
+}
