@@ -13,6 +13,7 @@
   position: fixed;
   width: 100%;
   padding: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .header__title {
@@ -38,9 +39,17 @@
   color: #335576;
 }
 
-.navigation__link:hover {
-  /* text-decoration: underline; */
+.navigation__link--current {
   border-bottom: 2px solid #db7a4e;
+  text-decoration: none;
+  color: #335576;
+  padding-bottom: 0.5rem;
+}
+
+.navigation__link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 0.5rem;
 }
 
 /*footer*/
