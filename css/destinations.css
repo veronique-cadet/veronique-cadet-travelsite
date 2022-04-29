@@ -6,6 +6,22 @@
   background-repeat: no-repeat;
 }
 
+.hero__iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.hero__greece {
+  background-image: url(../assets/Images/greece.jpg);
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 .hero__title {
   display: flex;
   margin-left: 7rem;

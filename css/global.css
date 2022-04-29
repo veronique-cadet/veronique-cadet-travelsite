@@ -54,6 +54,7 @@
 
 .footer__text {
   color: #335576;
+  text-decoration: none;
 }
 
 .footer__cardheader {
