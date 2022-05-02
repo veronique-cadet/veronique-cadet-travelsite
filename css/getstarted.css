@@ -9,34 +9,34 @@
   color: #335576;
   border-radius: 0.313rem;
   margin-left: 20rem;
-  margin right: 20rem;
+  margin-right: 20rem;
 }
 
-.form{
+.form {
   background-color: #fefaf5;
 }
 
-.form__title{
+.form__title {
   color: #335576;
-text-align: center;
-padding-bottom: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 input[type="text"],
 select,
 textarea {
-  width: 100%; 
-  padding: 0.75rem; 
-  border: 1px solid #DB7A4E; 
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #db7a4e;
   border-radius: 4px;
-  box-sizing: border-box; 
-  margin-bottom: 1rem; 
+  box-sizing: border-box;
+  margin-bottom: 1rem;
   resize: vertical;
   color: #335576;
 }
 
-input[type=submit] {
-  background-color: #DB7A4E;
+input[type="submit"] {
+  background-color: #db7a4e;
   color: white;
   padding: 0.75rem 1.25rem;
   border: none;
