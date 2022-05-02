@@ -4,75 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Site</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/global.css" />
+    <title>Get Started</title>
+    <link rel="stylesheet" href="../css/getstarted.css" />
+    <link rel="stylesheet" href="../css/global.css" />
   </head>
 
   <body>
+
     <header class="header">
-      <a class="header__link" href="./index.html">
+      <a class="header__link" href="../index.html">
         <h3 class="header__title">Travel Site</h3></a
       >
       <nav class="navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link--current" href="./index.html">Home</a>
+            <a class="navigation__link" href="../index.html">Home</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="./pages/hawaii.html">Hawaii</a>
+            <a class="navigation__link" href="../pages/hawaii.html">Hawaii</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="./pages/iceland.html">Iceland</a>
+            <a class="navigation__link" href="../pages/iceland.html">Iceland</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="./pages/greece.html">Greece</a>
+            <a class="navigation__link" href="../pages/greece.html">Greece</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section class="hero">
-        <article class="hero__textcontainer">
-          <h1 class="hero__header">Traveling Comes With Endless Discoveries</h1>
-          <p class="hero__description">
-            Don't let your dreams be just dreams. Experience the world by
-            booking a vacation with us now.
-          </p>
-          <a class="hero___buttonlink" href="./pages/getstarted.html"
-            ><button class="hero___button">Get Started</button></a
-          >
-        </article>
-        <article class="hero__imagecontainer">
-          <img
-            class="hero__image"
-            src="./assets/Images/hero.png"
-            alt="Plane flying around world"
-          />
-        </article>
-      </section>
-
-      <section class="destinations">
-        <h2 class="destinations__title">Recommendations</h2>
-        <article class="destinations__options">
-          <a class="destinations__hawaii__link" href="./pages/hawaii.html">
-            <div class="destinations__hawaii">
-              <h3 class="destinations__hawaii__text">Hawaii</h3>
-            </div></a
-          >
-          <a class="destinations__iceland__link" href="./pages/iceland.html">
-            <div class="destinations__iceland">
-              <h3 class="destinations__iceland__text">Iceland</h3>
-            </div></a
-          >
-          <a class="destinations__greece__link" href="./pages/greece.html">
-            <div class="destinations__greece">
-              <h3 class="destinations__greece__text">Greece</h3>
-            </div></a
-          >
-        </article>
-      </section>
+    <main class="form">
+      <div class="form__container">
+        <form action="form">
+          <h2 class="form__title"> Contact Us!
+          </h2>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full Name">
+          <label for="country">Destination</label>
+          <select id="country" name="country">
+            <option value="australia">Hawaii</option>
+            <option value="canada">Iceland</option>
+            <option value="usa">Greece</option>
+          </select>
+          <label for="Email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email">
+          <label for="Number">Number</label>
+          <input type="text" id="Number" name="number" placeholder="Number">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Please let us know the dates you would like to go as well as any questions you may have." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
     </main>
 
     <footer class="footer">
@@ -80,9 +62,7 @@
         <h2 class="footer__cardheader">Contact</h2>
         <p class="footer__text__title">Email</p>
         <a href="malito: info@travelsite.com"<p class="footer__text">info@travelsite.com</p></a>
-
       </div>
-
       <div class="footer__hours">
         <h2 class="footer__cardheader">Hours</h2>
         <div class="footer__text__days">
@@ -106,7 +86,7 @@
         <a class="footer__links" href="https://www.Instagram.com">
           <img
             class="footer__instagram__icon"
-            src="./assets/Icons/icon-instagram.png"
+            src="../assets/Icons/icon-instagram.png"
             alt="Instagram"
           />
         </a>
@@ -114,14 +94,14 @@
         <a class="footer__links" href="https://www.facebook.com">
           <img
             class="footer__facebook__icon"
-            src="./assets/Icons/icon-facebook.png"
+            src="../assets/Icons/icon-facebook.png"
             alt="Facebook"
           />
         </a>
         <a class="footer__links" href="https://www.twitter.com">
           <img
             class="footer__twiiter__icon"
-            src="./assets/Icons/icon-twitter.png"
+            src="../assets/Icons/icon-twitter.png"
             alt="Twitter"
           />
         </a>

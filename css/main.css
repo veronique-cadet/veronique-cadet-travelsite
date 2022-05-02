@@ -88,7 +88,9 @@
   margin-right: 1rem;
 }
 
-.destinations__hawaii__link {
+.destinations__hawaii__link,
+.destinations__iceland__link,
+.destinations__greece__link {
   text-decoration: none;
 }
 
@@ -113,10 +115,6 @@
   margin-right: 1rem;
 }
 
-.destinations__iceland__link {
-  text-decoration: none;
-}
-
 .destinations__greece {
   background-color: white;
   background-image: url("../assets/Images/greece.jpg");
@@ -136,8 +134,4 @@
   justify-content: right;
   margin-top: 20.5rem;
   margin-right: 1rem;
-}
-
-.destinations__greece__link {
-  text-decoration: none;
 }
